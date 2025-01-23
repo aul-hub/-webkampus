@@ -1,0 +1,356 @@
+
+
+/* Menambahkan warna latar belakang berbeda untuk setiap section */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Latar belakang halaman */
+    color: #333; /* Warna teks */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #3f51b5; /* Warna biru untuk header */
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    width: auto;
+    height: 12em; /* Ukuran logo disesuaikan dengan font */
+}
+
+header h1 {
+    font-size: 50px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Efek hover */
+}
+
+nav ul li a:hover {
+    color: #ffeb3b; /* Warna kuning saat hover */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f44336; /* Warna merah terang untuk hero section */
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Tentang Kampus */
+.about {
+    padding: 40px 0;
+    background-color: #e0f7fa; /* Warna biru muda untuk latar belakang tentang kampus */
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #3f51b5; /* Warna biru untuk judul */
+}
+
+/* Program Studi */
+.programs {
+    padding: 40px 0;
+    background-color: #fff9c4; /* Warna kuning muda untuk latar belakang program studi */
+    text-align: center;
+}
+
+.programs h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #3f51b5; /* Warna biru untuk judul */
+}
+
+.program-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.program {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s ease-in-out; /* Efek hover pada kartu program studi */
+}
+
+.program:hover {
+    transform: translateY(-10px); /* Efek hover pada kartu */
+}
+
+.program h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #3f51b5; /* Warna biru untuk judul program */
+}
+
+/* Dosen Kami */
+.faculty {
+    padding: 40px 0;
+    background-color: #e8eaf6; /* Latar belakang ringan untuk section dosen */
+    text-align: center;
+}
+
+.faculty h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #3f51b5; /* Warna biru untuk judul */
+}
+
+.faculty-list {
+    list-style: none;
+    font-size: 18px;
+    padding: 0;
+}
+
+.faculty-list li {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333; /* Warna teks dosen */
+}
+
+/* Kontak Kami */
+.contact {
+    padding: 40px 0;
+    background-color: #f1f8e9; /* Warna hijau muda untuk latar belakang kontak kami */
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #3f51b5; /* Warna biru untuk judul */
+}
+
+/* Lokasi Kampus */
+.map-container {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #fff3e0; /* Warna oranye muda untuk latar belakang lokasi kampus */
+    padding: 20px 0;
+}
+
+.map-container iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Latar belakang footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+color: white;
+padding: 20px 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header .logo {
+width: auto;
+height: 2em; /* Ukuran logo disesuaikan dengan font */
+}
+
+header h1 {
+font-size: 28px;
+flex-grow: 1;
+text-align: center;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Efek hover */
+}
+
+nav ul li a:hover {
+    color: #ffeb3b; /* Warna kuning saat hover */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f44336; /* Warna merah terang untuk hero section */
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+/* Tentang Kampus */
+.about {
+    padding: 40px 0;
+    background-color: #e0f7fa; /* Warna biru muda untuk latar belakang tentang kampus */
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #3f51b5; /* Warna biru untuk judul */
+}
+
+/* Program Studi */
+.programs {
+    padding: 40px 0;
+    background-color: #fff9c4; /* Warna kuning muda untuk latar belakang program studi */
+    text-align: center;
+}
+
+.programs h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #3f51b5; /* Warna biru untuk judul */
+}
+.program-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.program {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s ease-in-out; /* Efek hover pada kartu program studi */
+}
+
+.program:hover {
+    transform: translateY(-10px); /* Efek hover pada kartu */
+}
+
+.program h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #3f51b5; /* Warna biru untuk judul program */
+}
+
+/* Dosen Kami */
+.faculty {
+    padding: 40px 0;
+    background-color: #929ee1; /* Latar belakang ringan untuk section dosen */
+    text-align: center;
+}
+
+.faculty h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #3f51b5; /* Warna biru untuk judul */
+}
+
+.faculty-list {
+    list-style: none;
+    font-size: 18px;
+    padding: 0;
+}
+
+.faculty-list li {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333; /* Warna teks dosen */
+}
+
+/* Kontak Kami */
+.contact {
+    padding: 40px 0;
+    background-color: #f1f8e9; /* Warna hijau muda untuk latar belakang kontak kami */
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #3f51b5; /* Warna biru untuk judul */
+}
+
+/* Lokasi Kampus */
+.map-container {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #fff3e0; /* Warna oranye muda untuk latar belakang lokasi kampus */
+    padding: 20px 0;
+}
+
+.map-container iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Latar belakang footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
