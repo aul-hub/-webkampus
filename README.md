@@ -109,8 +109,13 @@
         <h2>Kontak Kami</h2>
         <p>Email: info@sttikom-iu.ac.id</p>
         <p>Telepon: (021) 123-4567</p>
+        </div>
+    </section>
+
 
         <!-- Menambahkan Google Maps -->
+    <section class="contact">
+      <div class="container">
         <h3>Lokasi Kampus</h3>
         <div class="map-container">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.4290041130087!2d106.14492881503575!3d-6.010394995518106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41999d32d7f71f%3A0x87d7980ffb6490ea!2sSTTIKOM%20Insan%20Unggul%20Cilegon!5e0!3m2!1sid!2sid!4v1674080519395!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
